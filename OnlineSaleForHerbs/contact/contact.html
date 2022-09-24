@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>تماس با ما</title>
+		<meta name="keywords" content=" تماس با سایت فروش ایتنرنتی گیاهان دارویی " />
+		<meta name="desciption" content="تماس با مدیریت سایت گیاهان دارویی" />
+		<meta name"author" content="alma ziaabadi" />
+		<link rel="icon"   type="image/png"   href="../MediaAndAttach/images/logo.png">
+		<link href="../index.css" rel="stylesheet" />
+		<link href="../css/general/nav.css" rel="stylesheet" />
+		<link href="../css/general/main.css" rel="stylesheet" />
+		<link href="contactForm.css" rel="stylesheet" />
+
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+			function initialize() {
+				var mapProp = {
+					center:new google.maps.LatLng(35.790275, 51.357793),
+					zoom:17,
+					mapTypeId:google.maps.MapTypeId.ROADMAP
+				};
+				var map=new google.maps.Map(document.getElementById("map"), mapProp);
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+		
+	</head>	
+<body>
+
+
+	<div id="slider">
+		<div>
+		</div>
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="../index.html">صفحه ی اصلی</a></li>
+			<li id="li2"><a href="../IntroProducts/IntroProducts.html">محصولات</a></li>
+			<li><a href="#">درباره ما</a></li>
+			<li id="li4"><a href="../gallery/gallery.html">گالری</a></li>
+			<li><a href="../contact/contact.html">تماس با ما</a></li>
+		</ul>
+	
+	</nav>
+</head>
+
+<body>
+<div id="formandmap">
+	<div id="map">
+	</div>
+
+	<form method="post" action="form-process.php">
+	<div id="register">
+	
+  	 	 <div>
+			<div>نام</div>
+			<div><input type="text" name="fname" /></div>
+   		</div>
+    
+    		<div>
+			<div>نام خانوادگی</div>
+			<div><input type="text" name="family" /></div>
+    		</div>
+
+   		<div>
+			<div>توضیحات</div>
+			<div><textarea name="brief"></textarea></div>
+ 		</div>
+    
+   		<div>
+
+			<div></div>
+			<div>
+        			<input type="submit" value="ثبت" />
+            			<input type="reset" value="انصراف" />
+        		</div>
+   		 </div>
+    
+	</div>
+	</form>
+</div>
+
+	<footer>
+	
+		<div id="footerlist1">
+			<ul>
+				<li><a href="../index.html">خانه</a></li>
+				<li><a href="#">همکاران</a></li>
+				<li><a href="#">سوالات شما</a></li>
+				<li><a href="#">مقالات</a></li>
+			</ul>
+		</div>
+
+		<div id="footerlist2">
+			<ul>
+				<li><a href="#">از گیاهان دارویی چه می دانید</a></li>
+				<li><a href="#">نسخه های گیاهی</a></li>
+				<li><a href="#">نمایشگاه های گیاهان دارویی</a></li>
+				<li><a href="#">سنن ایران</a></li>
+			</ul>
+		</div>		
+
+		<div id="footlisc">
+
+				<img src="../mediaAndAttach/images/logo.png" />		
+		</div>
+	</footer>
+</body>
+</html>

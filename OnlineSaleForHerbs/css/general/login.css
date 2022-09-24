@@ -1,0 +1,20 @@
+#loginForm{
+    width:300px;
+    height: 260px;
+    text-align: center;
+    background-color: #ddd;
+    margin: 150px auto;
+}
+#loginForm>input[type=text],#loginForm>input[type=password],#loginForm>input[type=submit] {
+    width:90%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family:'yekan';
+}#loginForm>input[type=checkbox] {
+    vertical-align: middle;
+}
+#loginForm>label{
+    font-size: 12px;
+    font-family:'yekan';
+}

@@ -1,0 +1,175 @@
+*{
+		margin:0px ;
+		padding:0px ;
+}
+	
+	
+html{
+
+	direction:rtl;
+
+}
+
+@font-face {
+
+	font-family: "yekan";
+	src: url(../fonts/Yekan.eot);
+	src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/Yekan.woff) format("woff"), url(../fonts/Yekan.ttf) format("truetype"), url(fonts/Yekan.svg#BYekan) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+#slider{
+    display:block;
+    width:800px;
+    height:300px;
+    margin:20px auto;
+    position:relative;
+    overflow:hidden;
+}
+
+#slider:hover>#next{
+    right:15px;
+    opacity: .7;
+}
+#slider>#next{
+    position: absolute;
+    z-index: 9999999;
+    width: 30px;
+    height: 30px;
+    top: 135px;
+    right:-30px;
+    opacity: 0;
+    background-image: url(../images/next.png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+#slider:hover>#previous
+{
+    left:15px;
+    opacity: .7;
+}
+#slider>#previous{
+    position: absolute;
+    z-index: 9999999;
+    width: 30px;
+    height: 30px;
+    top: 135px;
+    left:-30px;
+    opacity: 0;
+    background-image: url(../images/previous.png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+#slider>#previous:hover,
+#slider>#next:hover{
+    opacity: 1;
+}
+
+#slider>div>a{
+    width:800px;
+    height:300px;
+    position:absolute;
+    right:0;
+    top:0;
+    /*background-color:rgba(0,0,200,.4);*/
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 500ms linear;
+}
+#slider>div{
+    width:800px;
+    height:300px;
+    position:absolute;
+    right:0;
+    top:0;
+    /*background-color:rgba(0,0,200,.4);*/
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 500ms linear;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+#slider>#thumbNails{
+    display:block;
+    position: absolute;
+    z-index: 9999999;
+    width: 800px;
+    height: 35px;
+    opacity:1;
+    top:265px;
+    cursor: pointer;
+    transition:all 1s;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#slider>#thumbNails>div{
+    width: 200px;
+    height: 35px;
+    float:right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size:13px;
+    font-family:'Yekan';
+    text-align:center;
+    line-height:35px;
+    color:white;
+    opacity:1;
+    -webkit-box-sizing: border-box;
+}
+#slider>#thumbNails>div>a{
+    width: 200px;
+    height: 35px;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size:13px;
+    font-family:'Yekan';
+    text-align:center;
+    line-height:35px;
+    color:white;
+    opacity:1;
+    -webkit-box-sizing: border-box;
+	text-decoration:none;
+}
+#slider>#thumbNails>div>#slide1thumbNail{
+    background-color: rgba(230,230,230,1);
+    color:#973D2B;
+    border-left:1px solid rgba(240,240,240,1);
+    border-bottom-right-radius:10px;
+
+}
+#slider>#thumbNails>div>#slide2thumbNail{
+     background-color: rgba(151,61,43,0.9);
+     border-left:1px solid rgba(240,240,240,1)
+ 
+}
+#slider>#thumbNails>div>#slide3thumbNail{
+     background-color: rgba(151,61,43,0.9);
+     border-left:1px solid rgba(240,240,240,1)
+}
+#slider>#thumbNails>div>#slide4thumbNail{
+     background-color: rgba(151,61,43,0.9);
+        border-bottom-left-radius:10px;
+}
+#slider>#slide1{
+    background-image: url("../images/a1.jpg");
+    z-index: 2;
+    opacity: 1;
+}
+#slider>#slide2{
+    background-image: url("../images/a2.jpg");
+}
+#slider>#slide3{
+    background-image: url("../images/a3.jpg");
+}
+#slider>#slide4{
+    background-image: url("../images/a4.jpg");
+}

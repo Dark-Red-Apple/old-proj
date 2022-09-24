@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/slider.css" rel="stylesheet" />
+    <script src="javascript/slider.js"></script>
+</head>
+<body>
+	<div id="slider">
+		<span id="previous" onclick="nextButton()"></span>
+		<span id="next" onclick="previousButton()"></span>
+
+    		<div id="slide1" onmouseover="pauseImage()" onmouseout="StopPause()" ><a href="http://naringol.com/winter_herbs.php"></a></div>
+    		<div id="slide2" onmouseover="pauseImage()" onmouseout="StopPause()"><a href="http://naringol.com/body_nature_test.php"></a></div>
+    		<div id="slide3" onmouseover="pauseImage()" onmouseout="StopPause()"><a href="http://naringol.com/ladies.php"></a></div>
+   		<div id="slide4" onmouseover="pauseImage()" onmouseout="StopPause()"><a href="http://naringol.com/air_pollution.php"></a></div>
+		
+		<div id="thumbNails">
+			<div><a  id="slide1thumbNail" href="http://naringol.com/winter_herbs.php"  onmouseover="selectThumbNail(this.id)" onmouseout="thumbNailOut()">گیاهان دارویی</a></div>
+			<div><a  id="slide2thumbNail" href="http://naringol.com/body_nature_test.php"  onmouseover="selectThumbNail(this.id)" onmouseout="thumbNailOut()">گیاهان دارویی</a></div>
+			<div><a  id="slide3thumbNail" href="http://naringol.com/ladies.php"  onmouseover="selectThumbNail(this.id)" onmouseout="thumbNailOut()">گیاهان دارویی</a></div>
+			<div ><a  id="slide4thumbNail" href="http://naringol.com/air_pollution.php"  onmouseover="selectThumbNail(this.id)" onmouseout="thumbNailOut()">گیاهان دارویی</a></div>
+		</div>
+	</div>
+</body>
+</html>

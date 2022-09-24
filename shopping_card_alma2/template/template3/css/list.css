@@ -1,0 +1,32 @@
+
+
+input[type=submit]{
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box; /* inner  */
+    cursor: pointer;
+    text-shadow:0 1px 0 #fff;
+}
+
+input[type=search], input[type=text]{
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0px 0px 0px 1px #aaa inset ;
+    padding:5px 10px;
+    box-sizing: border-box;
+    font-family: iran_sans;
+}
+input[type=image]{
+    width: 40px;
+    height: 40px;
+}
+.input-image{
+    width: 40px;
+    height: 40px;
+}
+td>img{
+    width:100px;
+    height:100px;
+}

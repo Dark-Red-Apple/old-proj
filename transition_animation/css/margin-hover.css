@@ -1,0 +1,30 @@
+.father{
+    width:500px;
+    height:500px;
+    background-color: blue;
+    position:relative;
+    transition:all 1s ease;/*children does not inherit transition */
+}
+.child{
+    width:500px;
+    height:500px;
+    background-color: white;
+    position:absolute;
+    opacity:0;
+    transition:width 1s ease-in-out,height 1s ease-in-out,margin 1s ease-in-out,opacity 1s ease-in-out;
+    margin:0px;
+}
+/*.father:hover{*/
+    /*padding:10px;*/
+    /*width:480px;*/
+    /*height:480px;*/
+    /**/
+/*}*/
+.child:hover{
+    opacity:1;
+    width:480px;
+    height:480px;
+    margin:10px;
+    /*transition:opacity 1s;!*you cant give it to hover because it makes the hover off without transition and the old ones are replaced*!*/
+
+}

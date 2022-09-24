@@ -1,0 +1,26 @@
+
+
+table{
+    border-spacing: 4px;
+    border-collapse: separate;
+    /*border: 1px solid gray;*/
+    margin:15px auto;
+
+}
+
+table>tbody>tr:first-child>td{
+    font-size: 14px;
+    background-color:#b3d4ff;
+
+}
+td{
+    padding: 5px;
+    background-color: #ddd;
+    font-size: 12px;
+    text-align: center;
+    font-family:'yekan';
+    color: rgba(12, 19, 42, 0.71);
+    border-radius: 4px;
+
+
+}

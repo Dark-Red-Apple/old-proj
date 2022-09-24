@@ -1,0 +1,10 @@
+table customer: 
+customer_sex type tinyint: 0 for male, 1 for female
+
+----------------------
+admin-login:
+admin, 1
+----------------------
+login:
+user,1
+

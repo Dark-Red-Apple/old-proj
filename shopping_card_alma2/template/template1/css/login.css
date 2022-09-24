@@ -1,0 +1,59 @@
+
+html {
+    direction: rtl;
+}
+
+.login-banner {
+    width: auto;
+    height: 200px;
+    font-size: 30px;
+    color: black;
+    line-height: 100px;
+    text-align: center;
+    direction: ltr;
+}
+
+#loginForm {
+    width: 300px;
+    height: 260px;
+    text-align: center;
+    background-color: white;
+    margin: 0px auto;
+}
+
+#loginForm > input[type=text], #loginForm > input[type=password], #loginForm > input[type=submit] {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'yekan';
+    border: 1px dashed;
+    min-width: 0;
+    min-height: 0;
+}
+
+#loginForm > input[type=checkbox] {
+    vertical-align: middle;
+}
+
+#loginForm > label {
+    font-size: 12px;
+    font-family: 'yekan';
+}
+
+#loginForm > input[type=submit] {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: all 0.1s ease;
+    color: black;
+    cursor: pointer;
+    /*line-height: 40px;*/
+
+}
+
+#loginForm > input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,109 @@
+body {
+    background-color: rgba(151, 168, 188, 0.41);
+}
+
+div {
+    border-radius: 3px;
+}
+
+input[type=radio], input[type=checkbox] {
+    vertical-align: middle
+}
+
+input[type=text], input[type=password], textarea, select {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0px 0px 0px 1px #aaa inset;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-family: iran_sans;
+}
+
+select {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+select > option {
+    padding: 0 10px;
+}
+
+input[type=submit], input[type=reset] {
+    width: 49%;
+    height: 100%;
+    box-sizing: border-box; /* inner  */
+    cursor: pointer;
+    text-shadow: 0 1px 0 #fff;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    text-shadow: 0 -1px 0 #fff;
+}
+
+#form {
+    width: 700px;
+    margin: 50px auto;
+    /*background-color: rgba(75, 99, 188, 0.41);*/
+}
+
+#form > div { /* form rows */
+    width: 700px;
+    height: 35px;
+    /*background-color: #ddd;*/
+    margin-top: 10px;
+}
+
+#form > div > div {
+    float: right;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 1px #bbb inset;
+    /*background-color:rgba(21, 52, 112, 0.16);*/
+    background: transparent;
+}
+
+#form > div:last-child > div {
+    background-color: transparent;
+}
+
+#form > div > div:nth-child(1) { /* form column 1 */
+    width: 150px;
+    background-color: rgb(170, 170, 170);
+    text-shadow: 0 1px 0 #ccc;
+}
+
+#form > div > div:nth-child(2) { /* form column 2 */
+    width: 330px;
+    margin: 0 10px;
+    text-align: right;
+    box-shadow: none;
+}
+
+#form > div > div:nth-child(3) { /* form column 3 */
+    width: 200px;
+    color: rgba(209, 22, 94, 0.92);
+    box-shadow: none;
+}
+
+#form > div.textarea-row {
+    height: 120px;
+}
+
+#form > div.textarea-row > div {
+    height: 120px;
+}
+
+#form > #brief-row > div > textarea {
+    height: 120px;
+}
+
+#form > div:last-child > div {
+    box-shadow: none;
+}
+
+#form > div:last-child > div:first-child {
+    background: transparent;
+}

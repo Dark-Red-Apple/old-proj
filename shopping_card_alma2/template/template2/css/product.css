@@ -1,0 +1,486 @@
+﻿@charset "utf-8";
+
+/*#products-wrapper {*/
+/*width: 1200px;*/
+/*!*height: 1400px;*!*/
+/*margin: 40px auto 80px auto;*/
+/*!* box-shadow: 1px 10px 10px rgba(138, 138, 138, 0.9); *!*/
+/*!* border-radius: 7px; *!*/
+/*overflow: hidden;*/
+/*}*/
+
+#products-main {
+    width: 870px;
+    /*height: 1400px;*/
+    float: left;
+    margin: 0px 25px 0px 0px;
+    /* background-color: #f1f1f1; */
+    /* box-shadow: 1px 10px 10px rgba(138, 138, 138, 0.9); */
+    border-radius: 7px;
+}
+
+#filter-options-container {
+    width: 300px;
+    height: 720px;
+    background-color: #f1f1f1;
+    float: right;
+}
+
+#filter-options-main {
+    height: 100%;
+    width: 260px;
+    /*text-shadow: 0 1px 0 #ccc;*/
+    padding: 20px;
+}
+
+.filter {
+    height: 40px;
+    width: 260px;
+}
+
+.filter select {
+    width: 260px;
+    height: 100%;
+    font-family: 'yekan';
+    font-size: 12px;
+    border: 2px solid black;
+    box-shadow: none;
+}
+
+.filter select:focus {
+    outline: 0;
+}
+
+.product {
+    width: 250px;
+    height: 390px;
+    float: right;
+    margin: 30px 30px 30px 0px;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-family: "bardiya";
+    border-radius: 7px;
+    /* box-shadow: 0px 1px 20px 2px rgba(200,197,197,.9); */
+}
+
+.product > a {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    display: block;
+}
+
+.product > a > img {
+    width: 250px;
+    height: 250px;
+    /*box-shadow:5px 7px 10px rgba(200,197,197,.9);*/
+}
+
+.product > div {
+    width: 250px;
+    height: 130px;
+}
+
+.product-options {
+    width: 230px;
+    height: 35px;
+    padding: 10px;
+}
+
+.product-options > div:nth-child(2) {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgba(144, 144, 144, 0.94);
+}
+
+.product-cart-icon {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px;
+    display: inline-block;
+    width: 25px;
+    height: 35px;
+    cursor: pointer;
+    line-height: 35px;
+    color: #6e6e6e;
+    transition: color 0.3s ease-out;
+}
+
+.product-cart-icon:hover {
+    color: black;
+}
+
+.product-Brief-desc {
+    width: 230px;
+    height: 30px;
+    padding: 10px;
+}
+
+#pages-main {
+    margin: 0px auto 0 auto;
+    /*float: right;*/
+    clear: both;
+}
+
+#pages-main > a {
+    width: 30px;
+    height: 30px;
+    /* margin: 20px auto; */
+    border: 2px solid gray;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+}
+
+/*#container {*/
+/*width: 1200px;*/
+/*margin: 40px auto 40px auto;*/
+/*overflow: hidden;*/
+/*}*/
+
+#single-image {
+    width: 400px;
+    height: 400px;
+    /*background-color: gray;*/
+    float: right;
+}
+
+#single-image > img {
+    width: 400px;
+    height: 100%;
+}
+
+#single-title {
+    color: black;
+    font-size: 18px;
+}
+
+#single-detail {
+    width: 720px;
+    padding: 20px;
+    height: 460px;
+    /*background-color: gray;*/
+    float: right;
+    padding-right: 60px;
+}
+
+#item-cont-main-1 {
+    line-height: 40px;
+}
+
+#single-detail input[type=text],
+#single-detail input[type=password],
+#single-detail textarea,
+#single-detail select {
+    border: 1px dashed #8a8a8a;
+    width: 100%;
+    height: 100%;
+    background: none;
+    font-size: 15px;
+    /* border: none; */
+    /* box-shadow: 0px 0px 0px 1px #aaa inset; */
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-family: iran_sans;
+    color: #1d1d1d;
+}
+
+#single-detail > div {
+    width: 100px;
+    height: 40px;
+    margin: 20px 0 0 0;
+}
+
+#single-detail > div:nth-child(4) {
+    width: 150px;
+    height: 50px;
+}
+
+#single-detail > div:nth-child(1) {
+    width: 300px;
+    height: 50px;
+}
+
+#single-add-to-cart {
+    border: 2px solid black;
+    transition: all 0.4s ease;
+    width: 100%;
+    height: 100%;
+}
+
+#single-add-to-cart:hover {
+    background-color: black;
+    color: white;
+}
+
+#comment-from > div {
+    width: auto;
+    margin-top: 40px;
+}
+
+#comment-from > div > textarea {
+    min-height: 50px;
+    padding: 5%;
+    width: 90%;
+    height: 50Px;
+    max-width: 90%;
+    padding-top: 20px;
+}
+
+#comment-from > div > input {
+    width: 40%;
+    min-height: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#comment-from > div > input[type=text], #comment-from > div > textarea, #comment-from input[type=submit] {
+    font-size: 15px;
+    box-shadow: none;
+    border: 1px solid #c2c2c2;
+}
+
+#comment-from > div:first-child {
+    width: auto;
+    height: 50px;
+    float: none;
+    margin: 0;
+}
+
+#comment-from > div:nth-child(2) {
+    height: 50px
+}
+
+#comment-from > div:nth-child(3) {
+    min-height: 50px;
+}
+
+#comment-from input[type=submit] {
+    background: none;
+    min-height: 50px;
+    width: auto;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+#comment-from input[type=submit]:hover {
+    color: white;
+    background-color: black;
+}
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+    border: none;
+    float: right;
+    margin-left: 50px;
+
+}
+
+.rating > input {
+    display: none;
+}
+
+.rating > label:before {
+    margin: 2px;
+    font-size: 1.8em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating > .half:before {
+    content: "\f089";
+    position: absolute;
+    direction: ltr;
+}
+
+.rating > label {
+    color: #ddd;
+    float: right;
+    direction: ltr;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label {
+    color: #A4FCCA;
+}
+
+/* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label {
+    color: #0AE074;
+}
+
+.product-rating {
+    height: 40px;
+}
+
+.product-rating > i:before {
+    margin: 2px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 1.3em;
+    display: inline-block;
+    content: "\f005";
+}
+
+.product-rating > .half:before {
+    content: "\f089";
+    position: absolute;
+    direction: ltr;
+}
+
+.product-rating > i {
+    color: #ddd;
+    float: right;
+    direction: ltr;
+}
+
+.rated-value,
+.rated-value ~ i {
+    color: #A4FCCA !important;
+}
+
+#customers-comments {
+    margin-top: 60px;
+}
+
+#customers-comments h2 {
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+#customers-comments > div {
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+    width: auto;
+}
+
+#customers-comments > div > div:first-child, #customers-comments > div > div:last-child {
+    font-size: 15px;
+    margin-top: 20px;
+    min-height: 50px;
+}
+
+#customers-comments > div > div:first-child > span {
+    font-size: 20px;
+    color: #dee1e0;
+    bottom: 0;
+}
+
+#customers-comments > div > div:first-child > span > span {
+    font-size: 23px;
+    color: #b9ccc7;
+    margin-right: 10px;
+}
+
+#customers-comments > div .product-rating {
+    margin-left: 23px;
+}
+
+#customers-comments > div > div:nth-child(2) {
+    width: 100%;
+    height: 50px;
+}
+
+#customers-comments > div > div:last-child {
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+/*.rated-5 i:first-child,*/
+/*.rated-5 ~ i:first-child~i{*/
+/*color: #A4FCCA !important;*/
+/*}*/
+/*.rated-4half i:nth-child(2),*/
+/*.rated-4half ~ i:nth-child(2)~i{*/
+/*color: #A4FCCA !important;*/
+/*}*/
+/*.rated-4 i:nth-child(2),*/
+/*.rated-4 ~ i:nth-child(2)~i{*/
+/*color: #A4FCCA !important;*/
+/*}*/
+/*.rated-3 i:nth-child(2),*/
+/*.rated-4 ~ i:nth-child(2)~i{*/
+/*color: #A4FCCA !important;*/
+/*}*/
+/*.rated-4 i:nth-child(2),*/
+/*.rated-4 ~ i:nth-child(2)~i{*/
+/*color: #A4FCCA !important;*/
+/*}*/
+/*.rated-4 i:nth-child(2),*/
+/*.rated-4 ~ i:nth-child(2)~i{*/
+/*color: #A4FCCA !important;*/
+/*}*/
+#add-to-card {
+    font-size: 15px;
+}
+
+.sweep {
+    position: relative;
+    display: inline-block;
+    /*vertical-align: middle;*/
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    /*box-shadow: 0 0 1px transparent;*/
+    -webkit-transition-property: color, border;
+    transition-property: color, border;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    box-sizing: border-box;
+    /*margin: .4em;*/
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+    /*text-decoration: none;*/
+    color: #666;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: 1px solid black;
+}
+
+.sweep:hover, .sweep:focus, .sweep:active {
+    color: #383838;
+    border: none;
+}
+
+.sweep:hover:before, #sweep:focus:before, #sweep:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.sweep:before {
+    content: "";
+    background: #beffdf;
+    -webkit-transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-property: transform;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sidebar{
+	width:50px;
+	height:140px;
+	background-color:rgba(255,255,255,.5);
+	position:fixed;
+	top:300px;
+	left:40px;
+	opacity:.7;
+	transition:all 1s;
+	z-index:1000;
+}
+
+#sidebar:hover{
+	opacity:1;
+	
+}
+#sidebar>div{
+	width:40px;
+	height:40px;
+	margin:5px;
+	background-size:cover;
+	background-position:center;
+	transition:all 1s ;
+}
+
+
+#sidebar>div:hover{
+	box-shadow:1px 1px 0px rgba(0,0,0, .4);
+}
+
+#sidebar>div:first-child{
+	background-image:url(../../mediaAndAttach/images/facebook.png);
+}
+#sidebar>div:nth-child(2){
+	background-image:url(../../mediaAndAttach/images/instagram.png);
+}
+#sidebar>div:last-child{
+	background-image:url(../../mediaAndAttach/images/twitter.png);
+}
+
+#sidebar>div>a{
+	display:block;
+	width:100%;
+	height:100%;
+}

@@ -1,0 +1,81 @@
+@keyframes currentSlideMove {
+    from {right:0;}
+    to {right:100%;}
+}
+@keyframes prevSlideMove {
+    from {right:100%;}
+    to {right:-100%;}
+}
+@keyframes hidden{
+    from{visibility: visible;}
+    to{visibility:hidden;}
+}
+@keyframes visible{
+    from{visibility: hidden;}
+    to{visibility:visible;}
+}
+.current-slide-move{
+    right:0;
+    visibility: visible;
+    transition: right 1s linear 0s,visibility 0s linear 0s;
+}
+.prev-slide-move{
+    right:100%;
+    visibility: visible;
+    transition: right 1s linear 0s,visibility 0s linear 1s;
+}
+.make-hidden{
+     animation-name:hidden;
+     animation-duration: 0s;
+     animation-delay: 1s;
+ }
+.make-visible{
+    animation-name:visible;
+    animation-duration: 0s;
+    animation-delay: 1s;
+}
+
+.slider-wrapper{
+    width: auto;
+
+}
+#slider-main{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*display: none;*/
+   right:-100%;
+    /*transition: right  1s  ease-out,visibility 0s  ease  ;*/
+
+
+}
+.slide:first-child{
+    display: block;
+    /*top:0;*/
+    right: 0;
+}
+.slide span{
+     display: inline-block;
+     position: absolute;
+     background-color: rgba(245, 245, 245, 0.87);
+    z-index: 1;
+    font-size: 30px;
+    font-family: Yekan;
+    padding: 5px;
+    right:10%;
+    transition:bottom 1s  ease-out;
+    visibility: inherit;
+
+ }
+.slide img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}

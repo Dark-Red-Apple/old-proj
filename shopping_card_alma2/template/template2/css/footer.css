@@ -1,0 +1,113 @@
+footer {
+    width: auto;
+    height: 500px;
+    background-color: #000000;
+    clear: both;
+}
+
+#footer-wrapper {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto 0 auto;
+}
+
+#footer-wrapper > div {
+    height: 500px;
+    float: right;
+    box-sizing: border-box;
+}
+
+#footer-right {
+    width: 600px;
+    border: 1px dashed #353535;
+}
+
+#footer-left {
+    width: 600px;
+    border-left: 1px dashed #353535;
+    border-bottom: 1px dashed #353535;
+    border-top: 1px dashed #353535;
+}
+
+#footer-left > div:first-child {
+    background-image: url("../image/twitter-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}
+
+#footer-left > div:nth-child(2) {
+    background-image: url("../image/pic31.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer-left > div:nth-child(3) {
+    background-image: url("../image/instagram-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}
+
+#footer-left > div:nth-child(4) {
+    background-image: url("../image/pic25.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer-left > div {
+    width: 250px;
+    height: 200px;
+    /*background-color: #c5c7c5;*/
+    float: right;
+    margin: 24px 24px 25px 25px;
+}
+
+#footer-left > div > a {
+    height: 200px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+#address {
+    padding: 20px;
+    width: 560px;
+    height: 209px;
+    color: white;
+    /*font-size:15px;*/
+}
+
+#address > h2, #address > h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+#footer-links > ul {
+    padding: 20px;
+    width: 259px;
+    height: 209px;
+    /*background-color:white;*/
+    list-style: none; /* remove bullets */
+    float: right;
+}
+
+#footer-links > ul > li {
+    width: 259px;
+    height: 50px;
+}
+
+#footer-links > ul > li > a {
+    text-decoration: none; /* remove link underline */
+    display: block;
+    width: 259px;
+    height: 50px;
+    line-height: 50px;
+    font-family: "yekan";
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+}

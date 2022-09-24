@@ -1,0 +1,115 @@
+	@-webkit-keyframes spinner {
+  		from { -webkit-transform: rotateY(0deg);    }
+   		to   { -webkit-transform: rotateY(-180deg); }
+  	}
+
+	@-webkit-keyframes resetAnimation {
+  		from { -webkit-transform: rotateY(0deg);    }
+   		to   { -webkit-transform: rotateY(0deg); }
+  	}
+
+  	/* all other browsers */
+ 	 @keyframes spinner {
+   		from {
+     		 -moz-transform: rotateY(0deg);
+     		 -ms-transform: rotateY(0deg);
+      		transform: rotateY(0deg);
+    		}
+    		to {
+     		-moz-transform: rotateY(-180deg);
+      		-ms-transform: rotateY(-180deg);
+      		transform: rotateY(-180deg);
+    		}
+  	}
+ 	 /*@keyframes resetAnimation {
+   		 from {
+     		 -moz-transform: rotateY(0deg);
+     		 -ms-transform: rotateY(0deg);
+      		transform: rotateY(0deg);
+    		}
+    		to {
+     		-moz-transform: rotateY(0deg);
+      		-ms-transform: rotateY(0deg);
+      		transform: rotateY(0deg);
+    		}
+  	}*/
+
+		*{
+		margin:0px;
+		padding:0px;
+		}
+
+		html{
+		/*direction:rtl;*/
+		}
+		body{
+		background-color:getRandomColor();
+		}
+		#lets-play{
+		width:200px;
+		height:40px;
+		margin:15px auto 0 auto;
+		background-color:lightblue;
+		font-size:30px;
+		text-align:center;
+		cursor:pointer;
+		
+		}
+		#win-lose{
+		width:200px;
+		height:40px;
+		margin:15px auto 0 auto;
+		background-color:lightblue;
+		font-size:30px;
+		text-align:center;
+		display:none;
+		}
+		#error{
+		width:200px;
+		height:40px;
+		margin:15px auto 0 auto;
+		background-color:lightblue;
+		font-size:30px;
+		text-align:center;
+		display:none;
+		}
+
+		#timer{
+		width:200px;
+		height:40px;
+		margin:20px auto 0 auto;
+		background-color:lightblue;
+		font-size:30px;
+		text-align:center;
+		display:none;
+		}
+		#main{
+		border:1px red;
+		width:400px;
+		height:400px;
+		margin:20px auto 0 auto;
+		//background-color:#fea2df;	
+		}
+		#main>div{
+		width:100px;
+		height:100px;
+		background-color:green;
+		float:right;
+		background-size:cover;
+		cursor:pointer;
+		pointer-events :none;
+ 
+    -webkit-animation-timing-function: linear;
+   /* -webkit-animation-iteration-count: infinite;*/
+    -webkit-animation-duration: 500ms;
+
+   /* animation-name: spinner;*/
+    animation-timing-function: linear;
+   /*animation-iteration-count: infinite;*/
+    animation-duration: 500ms;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+		}

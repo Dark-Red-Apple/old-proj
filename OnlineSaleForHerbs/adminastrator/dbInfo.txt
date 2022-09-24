@@ -1,0 +1,14 @@
+create db sql: CREATE DATABASE `addressbook` DEFAULT CHARACTER SET utf8 COLLATE utf8_persian_ci;
+
+CREATE USER 'addressbook'@'localhost' IDENTIFIED VIA mysql_native_password USING '***';GRANT ALL PRIVILEGES ON 
+*.* TO 'addressbook'@'localhost' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 
+MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;GRANT ALL PRIVILEGES ON `addressbook`.* TO 'addressbook'@'localhost';
+
+
+contact table fiels: email name family company  phone mobile website address photo
+
+
+CREATE TABLE `addressbook`.`contact` ( `email` VARCHAR(50) NOT NULL ,
+ `name` VARCHAR(50) NULL , `family` VARCHAR(50) NULL , `company` VARCHAR(50) NULL , 
+`phone` VARCHAR(20) NULL , `mobile` VARCHAR(20) NULL , `website` VARCHAR(50) NULL ,
+ `address` VARCHAR(150) NULL , `photo` VARCHAR(50) NULL ) ENGINE = InnoDB;

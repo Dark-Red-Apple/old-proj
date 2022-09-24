@@ -1,0 +1,308 @@
+@-webkit-keyframes scaleOut {
+    from {
+        transform: scale(1.1) translate(-20px)
+    }
+    to {
+        transform: scale(1) translate(0px)
+    }
+}
+
+@-moz-keyframes scaleOut {
+    from {
+        transform: scale(1.1) translate(-20px)
+    }
+    to {
+        transform: scale(1) translate(0px)
+    }
+}
+
+@keyframes scaleOut {
+    from {
+        transform: scale(1.1) translate(-20px)
+    }
+    to {
+        transform: scale(1) translate(0px)
+    }
+}
+
+@-webkit-keyframes scaleIn {
+    from {
+        transform: scale(1) translate(0px)
+    }
+    to {
+        transform: scale(1.1) translate(-20px)
+    }
+}
+
+@-moz-keyframes scaleIn {
+    from {
+        transform: scale(1) translate(0px)
+    }
+    to {
+        transform: scale(1.1) translate(-20px)
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(1) translate(0px)
+    }
+    to {
+        transform: scale(1.1) translate(-20px)
+    }
+}
+
+#slider {
+    width: auto;
+    height: 500px;
+    background-image: url("../image/pic52.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#welcome {
+    text-align: center;
+    color: black;
+    width: auto;
+    height: 300px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+#welcome > p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    width: 1200px;
+    height: 200px;
+    line-height: 50px;
+    margin: 50px auto;
+}
+
+#introduction-wrapper {
+    width: auto;
+    height: 600px;
+    /* background-color: #e8e8e8; */
+    overflow: hidden;
+    /* margin-top: 40px; */
+    margin-bottom: 50px;
+
+}
+
+#introduction-main {
+    width: 1200px;
+    height: 492px;
+    /* background-color: #e8e8e8; */
+    overflow: hidden;
+    margin: 54px auto 0 auto;
+}
+
+#persuasion {
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+    background-image: url(../image/pic45.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right;
+    margin-top: 46px;
+    position: relative;
+    cursor: pointer;
+}
+
+#persuasion > span {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    transition: all 1s ease;
+    background-color: rgba(255, 255, 255, 0.71);
+    padding: 10px;
+}
+
+#persuasion > span:hover {
+
+    transform: scale(1.1) rotate(10deg) translate(20px);
+}
+
+#featured-wrapper {
+    width: auto;
+    height: 600px;
+    background-color: #ffffff;
+    /*margin: 40px auto 40px auto;*/
+}
+
+#featured-main {
+    width: 1200px;
+    height: 600px;
+    margin: 0px auto 0px auto;
+}
+
+#featured-main > div {
+    float: right;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#featured-main > div:first-child {
+    width: 800px;
+    height: 400px;
+    background-image: url("../image/pic35.jpg");
+    margin-left: 20px;
+    margin-top: 100px;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    box-sizing: border-box;
+}
+
+#featured-main > div:last-child {
+    width: 380px;
+    height: 500px;
+    background-image: url(../image/pic36.jpg);
+    margin-top: 50px;
+    border-right: 3px solid #c1c1c1;
+    border-top: 3px solid #c1c1c1;
+    box-sizing: border-box;
+}
+
+#featured-main > div:last-child > span {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    bottom: 0;
+    font-size: 30px;
+    color: #b3b2b5;
+    /* background-color: rgba(255, 255, 255, 0.49); */
+    width: 150px;
+    height: 200px;
+    transition: all 1s ease;
+    cursor: pointer;
+
+}
+
+#featured-main > div:first-child > span {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 30px;
+    color: #b3b2b5;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+#featured-main > div:last-child > span:hover {
+
+    transform: scale(1.1) translate(-30px);
+    color: black;
+
+}
+
+#featured-main > div:first-child > span:hover {
+    transform: scale(1.1) translate(20px);
+    color: #000000;
+}
+
+#product-view {
+    width: auto;
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    /*border-bottom: 0.5px dashed #bcbcbc;*/
+    background-color: #f6f6f6;
+}
+
+#product-view > div {
+    width: 1200px;
+    height: 200px;
+    margin: 50px auto;
+}
+
+#product-view > div > div {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+    background-color: black;
+    position: relative;
+    cursor: pointer;
+    float: right;
+}
+
+#product-view > div > div:first-child {
+    margin-right: 50px;
+    background-image: url("../image/pic42.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#product-view > div > div:nth-child(2) {
+    background-image: url("../image/pic40.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#product-view > div > div:nth-child(3) {
+    background-image: url("../image/slider2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#product-view > div > div:last-child {
+    background-image: url("../image/pic32.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+
+#product-view > div > div:hover > div {
+    opacity: 1;
+}
+
+#product-view > div > div > div {
+    width: 150px;
+    height: 150px;
+    top: 25px;
+    left: 25px;
+    background-color: rgba(255, 255, 255, 0.77);
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+#product-view > div > div > div > p {
+    width: 130px;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+#product-view > div > div > div > a {
+    width: 100px;
+    height: 30px;
+    margin: 10px 25px;
+    border: solid 1px #a4a4a4;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    color: black;
+    transition: all 0.3s linear;
+}
+
+#product-view > div > div > div > a:hover {
+    background-color: black;
+    color: white;
+}

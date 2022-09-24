@@ -1,0 +1,541 @@
+@charset "utf-8";
+
+nav {
+    width: 600px;
+    height: 60px;
+    margin: 30px auto 0px 100px;
+    float: right;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+nav > ul {
+    list-style: none; /* remove bullets */
+}
+
+nav > ul > li {
+    float: right;
+    width: 100px;
+    height: 60px;
+    /*border-bottom: solid 1px black;*/
+    position: relative;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+nav > ul > li:hover > div {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.5s;
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    top: 60px;
+    /*border-top: solid 10px #ffffff;*/
+}
+
+nav > ul > li > a {
+    text-decoration: none; /* remove link underline */
+    display: block;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "yekan";
+    text-align: center;
+    font-size: 15px;
+    /*font-weight:bold;*/
+    color: #000;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+nav > ul > li > a:hover {
+    color: rgb(110, 129, 163);
+}
+
+.normal-submenu {
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: -25px;
+    opacity: 0;
+    transition: visibility 0s linear, opacity 0.5s linear, top 1s linear;
+    -webkit-transition: visibility 0s linear, opacity 0.5s linear, top 1s linear;
+    -moz-transition: visibility 0s linear, opacity 0.5s linear, top 1s linear;
+    -o-transition: visibility 0s linear, opacity 0.5s linear, top 1s linear;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.wide-submenu {
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+    width: 700px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    opacity: 0;
+    transition: visibility 0s linear 0.4s, opacity 0.3s linear, top 0.3s linear;
+    -webkit-transition: visibility 0s linear 0.4s, opacity 0.3s linear, top 0.3s linear;
+    -moz-transition: visibility 0s linear 0.4s, opacity 0.3s linear, top 0.3s linear;
+    -o-transition: visibility 0s linear 0.4s, opacity 0.3s linear, top 0.3s linear;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.wide-submenu-image {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    object-fit: cover;
+}
+
+nav > ul > li > div > ul {
+    list-style: none; /* remove bullets */
+    float: right;
+}
+
+nav > ul > li > > div > ul > li {
+    width: 150px;
+    height: 60px;
+}
+
+nav > ul > li > div > ul > li > a {
+    text-decoration: none; /* remove link underline */
+    display: block;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "yekan";
+    text-align: center;
+    font-size: 0.9em;
+    /*font-weight:bold;*/
+    cursor: pointer;
+    color: #000;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s; /*do not use all because it breaks the upper config on visibility*/
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+/*nav>ul>li>div>ul>li>a:hover{*/
+/*color: rgb(110, 129, 163);*/
+/*}*/
+#top {
+    width: auto;
+    height: 40px;
+    background-color: #71034a;
+    border: solid 1px #71034a;
+}
+
+#top > div {
+    height: 40px;
+    line-height: 40px;
+    /*color:white;*/
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+#top > div {
+
+    float: right;
+    width: 100px;
+    margin: 0 0 0 20px;
+}
+
+#top > div:hover {
+
+    background-color: #005eba;
+}
+
+#top > div > a {
+    float: right;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    color: white;
+
+}
+
+/*#language>a{*/
+/*float: right;*/
+/*}*/
+/*#language>a:hover{*/
+/*color:white;*/
+/*}*/
+#logo {
+    height: 100px;
+    width: 100px;
+    float: right;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    margin: 10px 40px 0 0px;
+
+}
+
+#logo > a > img {
+    height: 100%;
+}
+
+#logo > a {
+    height: 100%;
+    display: block;
+}
+
+#nav-logo-wrapper {
+    height: 120px;
+    width: auto;
+    margin: 0px 0 0 0;
+    background-color: #ffffff;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#nav-logo-main {
+    height: 120px;
+    width: auto;
+    margin: 0px auto 0 auto;
+    background-color: white;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
+    z-index: 20000;
+    position: relative;
+}
+
+#nav-logo {
+    height: 120px;
+    width: auto;
+    margin: 0px auto 0 auto;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+
+}
+
+#search-main > input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: 0px 0px 0px 1px #aaa inset;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-family: "novaslim";
+    font-size: 15px;
+
+}
+
+input:focus {
+    /*outline-width: 0;*/
+    outline: none;
+}
+
+#menu-icons {
+    width: 130px;
+    height: 60px;
+    margin: 30px 10px 0 40px;
+    float: left;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#menu-icons > div:last-child {
+    margin: 0;
+}
+
+#menu-icons > div {
+    width: 30px;
+    height: 60px;
+    margin-left: 20px;
+    float: right;
+}
+
+#menu-icons > div > a > i {
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #000000;
+    text-rendering: auto;
+}
+
+#basket-item-numbers {
+    top: 15px;
+    left: -10px;
+    font-size: 14px;
+}
+
+#user-menu {
+    position: relative;
+}
+
+#user-menu > div {
+    border: solid 1px #e1e1e1;
+    width: 150px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: -60px;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+    -webkit-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+    -moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+    -o-transition: visibility 0s linear 0.3s, opacity 0.3s linear, box-shadow 0.3s linear;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    visibility: hidden;
+}
+
+#user-menu:hover > div {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+#user-menu > div > ul {
+    list-style: none; /* remove bullets */
+}
+
+#user-menu > div > ul > li {
+    width: 150px;
+    height: 40px;
+}
+
+#user-menu > div > ul > li > a {
+    text-decoration: none; /* remove link underline */
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-family: "yekan";
+    text-align: center;
+    font-size: 0.7em;
+    /*font-weight:bold;*/
+    cursor: pointer;
+    color: #000;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s; /*do not use all because it breaks the upper config on visibility*/
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+#user-menu > div > ul > li > a :hover {
+    color: rgb(163, 109, 83);
+}
+
+/* Add animation (Chrome, Safari, Opera) */
+@-webkit-keyframes example {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+/* Add animation (Standard syntax) */
+@keyframes example {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+/* The modal's background */
+.modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 10000;
+    bottom: 0;
+    right: 0;
+}
+
+/* Display the modal when targeted */
+.modal:target {
+    display: table;
+    position: fixed;
+}
+
+/* The modal box */
+.modal-dialog {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* The modal's content */
+.search-dialog .search-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    border: 1px #777 solid;
+    text-align: justify;
+    width: 80%;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 0.5s;
+    animation-name: example;
+    animation-duration: 0.5s;
+    border: 1px solid #4c4c4c;
+    border: none;
+
+}
+
+.modal-dialog .modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    border: 1px #777 solid;
+    text-align: justify;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 0.5s;
+    animation-name: example;
+    animation-duration: 0.5s;
+    border: 1px solid #4c4c4c;
+    border: none;
+
+}
+
+/*.modal-dialog .modal-content {*/
+/*margin: auto;*/
+/*background-color: #fff;*/
+/*position: relative;*/
+/*padding: 0;*/
+/*outline: 0;*/
+/*border: 1px #777 solid;*/
+/*text-align: justify;*/
+/*!*width: 80%;*!*/
+/*!*height: 100px;*!*/
+/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+/*-webkit-animation-name: example;*/
+/*-webkit-animation-duration: 0.5s;*/
+/*animation-name: example;*/
+/*animation-duration: 0.5s;*/
+/*border: 1px solid #4c4c4c;*/
+/*border: none;*/
+
+/*}*/
+/*.login-dialog{*/
+/*width: 300px;*/
+/*height: 260px;*/
+/*}*/
+/*.search-dialog{*/
+/*width: 80%;*/
+/*height: 100px;*/
+/*}*/
+.search {
+    width: 92%;
+    height: 100%;
+    border: none;
+    float: right;
+}
+
+.search input {
+    width: 98%;
+    height: 100%;
+    border: none;
+    text-align: right;
+    padding-right: 2%;
+    padding-left: 0;
+    padding-bottom: 0;
+    /*outline: none;*/
+    padding-top: 0;
+    font-size: 30px;
+    transition: all 1s linear;
+}
+
+.search-button {
+    width: 8%;
+    height: 100%;
+    float: right;
+    background: white;
+    padding-right: 1%;
+    padding-left: 1%;
+
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+.search-button i {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 3em;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    text-rendering: auto;
+}
+
+.closebtn {
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.closebtn i {
+    font: normal normal normal 14px/1 FontAwesome;
+    text-decoration: none;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-rendering: auto;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

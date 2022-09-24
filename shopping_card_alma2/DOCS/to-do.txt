@@ -1,0 +1,12 @@
+table customer: 
+customer_photo  -> customer_pic
+customer_sex type -> tinyint(0male, 1female)
+
+
+tables for login system:
+in customers table add user and pass fiels
+table user for admin
+
+
+
+finally: change admin url access url invisible

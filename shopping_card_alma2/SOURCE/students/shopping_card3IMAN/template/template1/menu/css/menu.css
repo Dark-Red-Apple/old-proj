@@ -1,0 +1,58 @@
+html {
+    direction: rtl;
+}
+
+#main-nav {
+    display: block;
+    width: 100%;
+    height: 90px;
+    background-color: #dddddd;
+    transition: all .5s;
+}
+
+#main-nav ul {
+    list-style: none;
+}
+
+#main-nav ul li {
+    float: right;
+    height: 90px;
+    width: 10%;
+    color: black;
+    text-align: center;
+    transition: all .5s;
+}
+
+#main-nav ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #26608e;
+    transition: all .5s;
+}
+
+#main-nav ul li a i {
+    color: #006a96;
+    transition: all .5s;
+}
+
+/* hover */
+
+#main-nav ul li:hover {
+    background-color: burlywood;
+}
+
+#main-nav ul li a:hover {
+    transition: all .5s;
+    color: black;
+}
+
+#main-nav ul li a:hover i {
+    transition: all .5s;
+    color: #aaaaaa;
+}
+
+/* end hover */
+
+/* responsiv */
+/* end responsiv */

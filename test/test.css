@@ -1,0 +1,295 @@
+﻿﻿@charset "utf-8";
+	*{
+		margin:0;
+		padding:0;
+	}
+	
+	
+html{
+	direction:rtl;
+
+	}
+
+
+#test{
+	width:1200px;
+	height:auto;
+        border:2px solid rgb(227, 162, 149);
+	margin:20px auto;
+        border-radius:30px;
+	overflow:hidden;
+	font-family:'Yekan';
+	color:#47434c;
+	font-size:15px;
+	
+}
+
+#test_title{
+	width:1200px;
+	height:30px;
+	text-align:center;
+	background-color:rgb(227, 162, 149);
+	line-height:30px;
+	font-size:24px;
+	color:#fff;
+	font-family:'Mj_Abbasan', 'Yekan';
+	
+}
+#test>div{
+	font-size:15px;
+	font-family:'Yekan';
+}
+
+#phase1{
+	display:block;
+	width:1160px;
+	height:auto;
+	overflow:auto;
+	padding:20px;
+}
+#phase1>div{
+	margin-top:15px;
+}
+#phase1>div:first-child{
+	width:1160px;
+	height:auto;
+	padding:10px 10px;
+}
+#phase2>div{
+	margin-top:15px;
+}
+
+#phase3>div{
+	margin-top:15px;
+}
+
+#phase4>div{
+	margin-top:15px;
+}
+
+
+#test>div:nth-child(3),
+#test>div:nth-child(4),
+#test>div:nth-child(5),
+#test>div:nth-child(6){
+	display:none;
+	width:1160px;
+	height:auto;
+	overflow:auto;
+	padding:20px;
+}
+
+
+#test>div:nth-child(2)>div>input[type=radio]:not(old),
+#test>div:nth-child(3)>div>input[type=radio]:not(old),
+#test>div:nth-child(4)>div>input[type=radio]:not(old),
+#test>div:nth-child(5)>div>input[type=radio]:not(old),
+#test>div:nth-child(6)>div>input[type=radio]:not(old){
+  width     : 2em;
+  font-size : 1em;
+  opacity   : 0;
+  display:none;
+}
+
+#test>div:nth-child(2)>div>input[type=radio]:not(old) + label,
+#test>div:nth-child(3)>div>input[type=radio]:not(old) + label,
+#test>div:nth-child(4)>div>input[type=radio]:not(old) + label,
+#test>div:nth-child(5)>div>input[type=radio]:not(old) + label,
+#test>div:nth-child(6)>div>input[type=radio]:not(old) + label{
+  display      : inline-block;
+  margin-left  : 2em;
+  line-height  : 1.5em;
+}
+
+#test>div:nth-child(2)>div>input[type=radio]:not(old) + label> span,
+#test>div:nth-child(3)>div>input[type=radio]:not(old) + label> span,
+#test>div:nth-child(4)>div>input[type=radio]:not(old) + label> span,
+#test>div:nth-child(5)>div>input[type=radio]:not(old) + label> span,
+#test>div:nth-child(6)>div>input[type=radio]:not(old) + label> span{
+  display          : inline-block;
+  width            : 0.895em;
+  height           : 0.895em;
+  margin           : 0.25em 0.5em 0.25em 0.25em;
+  border           : 0.1100em solid rgba(227, 162, 149,0.8);
+  border-radius    : 0.400em;
+  background       : rgb(224,224,224);
+  background-image :    -moz-linear-gradient(rgb(255,255,255),rgb(230,246,245));
+  background-image :     -ms-linear-gradient(rgb(255,255,255),rgb(230,246,245));
+  background-image :      -o-linear-gradient(rgb(255,255,255),rgb(230,246,245));
+  background-image : -webkit-linear-gradient(rgb(255,255,255),rgb(230,246,245));
+  background-image :         linear-gradient(rgb(255,255,255),rgb(230,246,245));
+  vertical-align   : bottom;
+}
+
+#test>div:nth-child(2)>div>input[type=radio]:not(old):checked + label > span >span,
+#test>div:nth-child(3)>div>input[type=radio]:not(old):checked + label> span >span,
+#test>div:nth-child(4)>div>input[type=radio]:not(old):checked + label> span >span,
+#test>div:nth-child(5)>div>input[type=radio]:not(old):checked + label> span >span,
+#test>div:nth-child(6)>div>input[type=radio]:not(old):checked + label> span >span{
+  display          : block;
+  width            : 0.6em;
+  height           : 0.6em;
+  margin           : 0.125em;
+  border           : 0.0625em solid rgb(227, 162, 149);
+  border-radius    : 0.125em;
+  background       : rgb(227, 162, 149);
+  background-image :    -moz-linear-gradient(rgb(227, 162, 149),rgb(227, 162, 149));
+  background-image :     -ms-linear-gradient(rgb(227, 162, 149),rgb(227, 162, 149));
+  background-image :      -o-linear-gradient(rgb(227, 162, 149),rgb(227, 162, 149));
+  background-image : -webkit-linear-gradient(rgb(227, 162, 149),rgb(227, 162, 149));
+  background-image :         linear-gradient(rgb(227, 162, 149),rgb(227, 162, 149));
+}
+
+#test>div:nth-child(2)>button,
+#test>div:nth-child(3)>button,
+#test>div:nth-child(4)>button,
+#test>div:nth-child(5)>button,
+#test>div:nth-child(6)>button{
+	width:100px;
+	height:50px;
+	font-family: "yekan";
+	font-size:16px;
+	color:#6A6A6A;
+	float:right;
+	border:none;
+	border-radius:10px;
+	margin-right:20px;
+	margin-top:40px;
+	outline: none;
+}
+
+#test>div:nth-child(2)>button:hover,
+#test>div:nth-child(3)>button:hover,
+#test>div:nth-child(4)>button:hover,
+#test>div:nth-child(5)>button:hover,
+#test>div:nth-child(6)>button:hover{
+	background-color:rgba(202,91,69,0.8);
+	color:#fff;
+		}
+#warning{
+	display:none;
+	width:400px;
+	height:30px;
+	line-height:30px;
+	margin-top:20px;
+	color:red;
+}
+
+#result{
+	display:none;
+	width:1200px;
+	height:auto;
+	margin:10px auto 20px auto;
+	text-align:justify;
+
+	
+}
+
+#image{
+	width:1200px;
+	height:300px;
+	margin:0px auto 20px auto;
+	
+}
+#image1{
+	width:300px;
+	height:300px;
+	float:right;
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+	
+}
+#image2{
+	width:600px;
+	height:300px;
+	float:right;
+}
+#image3{
+	width:300px;
+	height:300px;
+	float:right;
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+}
+
+#result>div:nth-child(2)>div:nth-child(1),
+#result>div:nth-child(3)>div:nth-child(1),
+#result>div:nth-child(4)>div:nth-child(1),
+#result>div:nth-child(5)>div:nth-child(1){
+	width:1200px;
+	height:30px;
+	padding:10px 10px 10px 10px;
+	line-height:30px;
+	color:#fff;
+	font-weight:bold;
+	font-family:'Mj_Abbasan','Yekan';
+	text-align:center;
+	
+
+}
+#genertitle{
+	background-color:rgba(180,207,69,0.9);
+
+
+}
+#subtitle{
+	background-color:rgba(248,145,29,0.9);
+
+
+}
+#gentitle{
+	background-color:rgba(68,155,112,0.9);
+
+
+}
+#agetitle{
+	background-color:rgba(180,131,172,0.9);
+
+
+}
+#genercontent{
+	background-color:rgba(201,231,77,0.3);
+
+
+}
+#subcontent{
+	background-color:rgba(250,181,103,0.3);
+
+
+}
+#gencontent{
+	background-color:rgba(153,208,181,0.2);
+
+}
+#agecontent{
+	background-color:rgba(224,163,214,0.3);
+
+
+}
+
+#result>div:nth-child(2),
+#result>div:nth-child(3),
+#result>div:nth-child(4),
+#result>div:nth-child(5){
+	width:1200px;
+	height:auto;
+	border:1px solid #e5e5e5;
+	margin:10px auto 20px auto;
+	border-radius:30px;
+	overflow:hidden;
+	box-sizing: border-box;
+   	-moz-box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+
+
+}
+
+
+#result>div:nth-child(2)>div:nth-child(2),
+#result>div:nth-child(3)>div:nth-child(2),
+#result>div:nth-child(4)>div:nth-child(2),
+#result>div:nth-child(5)>div:nth-child(2){
+	
+	padding:20px 20px 20px 20px;
+	font-family:'Yekan';
+}

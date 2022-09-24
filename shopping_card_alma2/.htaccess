@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine On
+ 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-f
+ 
+#RewriteRule    ^users/([0-9]+)/$1
+#RewriteRule ^/user/([0-9]+)$ user/products.php?cat_id=$1 [L,R]
+RewriteRule ^cat/(\d+)*$ ./user/products.php?cat_id=$1 [QSA]
+#RewriteRule ^user/single_product/(\d+)*$ ./user/single_product.php?product_id=$1
+#RewriteRule ^search/(\d+)*$ ./user/products.php?cat_id=$1 [QSA]

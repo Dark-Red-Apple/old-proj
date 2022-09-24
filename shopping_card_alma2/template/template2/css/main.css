@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'yekan';
+    src: url(../fonts/yekan.woff);
+    src: url(../fonts/yekan.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/yekan.woff) format("woff"), url(../fonts/yekan.ttf) format("truetype"), url(../fonts/yekan.svg#yekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'yekan';
+    color: rgba(0, 0, 0, 0.7)
+}
+
+html {
+    direction: rtl;
+}
+
+.font-default {
+    font-size: 12px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1200px;
+    overflow: hidden;
+    margin: 40px auto 80px auto;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0781c1;
+}
+
+.color-red {
+    color: red;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.success-message {
+    width: auto;
+    height: 50px;
+    font-size: 15px;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+    background-color: #9AE4BA;;
+}
+
+.not-success-message {
+    width: auto;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    background-color: #923131;
+}
+
+.banner {
+    width: auto;
+    height: 300px;
+    font-size: 30px;
+    color: black;
+    line-height: 100px;
+    position: relative;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-page-location {
+    color: #949494;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    padding-right: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+#page-location {
+    color: #949494;
+    background-color: #f3f3f3;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    padding-right: 40px;
+
+}
+
+#page-location > a, .banner-page-location > a {
+    color: #949494;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+#page-location > a:hover, .banner-page-location > a:hover {
+    color: #cdcdcd;
+}
+
+.add-to-shop {
+    width: 40px;
+    height: 40px;
+    color: #000000;
+}
+
+.basket-image {
+    width: 100px;
+    height: 100px;
+}
+
+select:focus {
+    outline: 0;
+}
+
+.circle {
+    border-radius: 100%;
+    background-color: white;
+    overflow: hidden;
+    border: 0.5px solid #b2b2b2;
+}
+
+.circle-text {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.display-block {
+    display: block;
+}
+
+.width-height-100 {
+    width: 100%;
+    height: 100%;
+}
+
+input:focus {
+    /*outline-width: 0;*/
+    outline: none;
+}
+
+#loading-div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#search_item.focus::-webkit-input-placeholder { /*between two sides of :: should not be any space*/
+    color: rgba(255, 0, 2, 0.66);
+}
+
+#search_item.focus:-moz-placeholder { /* Firefox 18- */
+    color: rgba(255, 0, 2, 0.66);
+}
+
+#search_item.focus::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255, 0, 2, 0.66);
+}
+
+#search_item.focus:-ms-input-placeholder {
+    color: rgba(255, 0, 2, 0.66);
+}
+
+td {
+    padding: 5px;
+    /* background-color: #ddd; */
+    font-size: 12px;
+    text-align: center;
+    font-family: 'yekan';
+    color: rgba(12, 19, 42, 0.71);
+    /* border-radius: 4px; */
+    border-bottom: 1px solid #E1E1E1;
+}
+
+table > tbody > tr:first-child > td {
+    font-size: 14px;
+    /* background-color: #b3d4ff; */
+}
+
+table {
+    border-spacing: 4px;
+    border-collapse: separate;
+    /* border: 1px solid gray; */
+    margin: 15px auto;
+}
+
+#customer-register-form {
+    width: 700px;
+    margin: 0px 0px 0 0px;
+    /* background-color: rgba(75, 99, 188, 0.41); */
+    float: right;
+}

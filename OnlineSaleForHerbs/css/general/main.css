@@ -1,0 +1,115 @@
+﻿@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	direction:rtl;
+}
+	
+@font-face{
+	font-family:"Yekan";
+	src:url(../../mediaAndAttach/fonts/yekan.eot);
+	src:url(../../mediaAndAttach/fonts/Yekan.eot?#iefix) format("embedded-opentype"),
+	url(../../mediaAndAttach/fonts/Yekan.woff) format("woff"),
+	url(../../mediaAndAttach/fonts/Yekan.ttf) format("truetype"),
+	url(../../mediaAndAttach/fonts/Yekan.svg#BYekan) format("svg");
+		font-weight: normal;
+		font-style: normal;
+}
+	
+@font-face{
+	font-family:"bardiya";
+	src:url(../../mediaAndAttach/fonts/BBardiya.eot);
+	src:url(../../mediaAndAttach/fonts/BBardiya.eot?#iefix) format("embedded-opentype"),
+	url(../../mediaAndAttach/fonts/BBardiya.woff) format("woff"),
+	url(../../mediaAndAttach/fonts/BBardiya.ttf) format("truetype"),
+	url(../../mediaAndAttach/fonts/BBardiya.svg#BYekan) format("svg");
+		font-weight: normal;
+		font-style: normal;
+}
+	
+body{
+	background-color:rgba(25,220,200,.5);
+	background-image:url("../../mediaAndAttach/images/pattern9.png");
+}
+
+
+#slider{
+	width:auto;
+	height:300px;
+	background-color:rgba(240,230,230,.5);
+	margin:0 auto;
+	box-shadow:5px 7px 10px rgba(200,197,197,.9);	
+	border-bottom-right-radius:10em;
+	border-bottom-left-radius:10em;
+}
+	
+#slider>div{
+	width:1050px;
+	height:300px;
+	background-image:url("../../mediaAndAttach/images/pice7.jpg");
+	background-position:center;
+	background-size:cover;
+	margin:0 auto;
+	position:reletive;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+}
+
+
+nav{
+	width:960px;
+	height:40px;
+	margin:2px auto 0px auto;
+}	
+		
+footer{
+	background-color:rgba(220,200,200,.5);
+	color:black;
+	width:960px;
+	height:150px;
+	margin:120px auto 0px auto;
+	box-sizing: border-box;
+	padding:20px 130px;
+	box-shadow:5px 7px 10px rgba(200,197,197,.9);
+	border-top-right-radius:10em;
+	border-top-left-radius:10em;
+	overflow: hidden;
+        text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+footer>div:nth-child(1),footer>div:nth-child(2){
+	width:100px;
+	height:110px;
+	backgroun-color:blue;
+	margin-left:30px;
+	float:right;
+}
+	
+footer>div>ul>li>a
+{
+	text-decoration:none;
+	color:black;
+	width:200px;
+	display:block;
+	font-family:"bardiya";
+}
+	
+footer>div>ul>li>a:hover
+{
+	color:rgb(0,0,0);
+}
+
+footer>#footlisc{
+	width:80px;
+	height:80px;
+	float:left;
+	margin-top:15px;	
+}
+
+footer>#footlisc>img{
+	height:80px;
+}

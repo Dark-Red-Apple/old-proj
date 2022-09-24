@@ -1,0 +1,21 @@
+.father{
+    width:500px;
+    height:500px;
+    background-color: blue;
+    position:relative;
+    padding:0px;
+   }
+.child{
+    width:500px;
+    height:500px;
+    background-color: white;
+    position:absolute;
+    opacity:0;
+    transform: scale(1);
+    transition:all 1s ease-in-out;
+}
+
+.child:hover{
+    opacity:1;
+    transform: scale(0.95);
+}

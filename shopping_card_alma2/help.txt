@@ -1,0 +1,5 @@
+login info for test:
+admin user: admin
+admin pass: 1
+user: user 
+pass: 1

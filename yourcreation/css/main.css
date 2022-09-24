@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding: 0;
+
+}
+html{
+
+    direction: ltr;
+}
+
+@font-face{
+    font-family:"neuropol";
+    src: url(../mediaAndAttach/fonts/neuropol.woff) format("woff"),
+    url(../mediaAndAttach/fonts/neuropol.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"novaslim";
+    src: url(../mediaAndAttach/fonts/novaslim.woff) format("woff"),
+    url(../mediaAndAttach/fonts/novaslim.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"fefcrm";
+    src:
+    url(../mediaAndAttach/fonts/fefcrm2-webfont.woff) format("woff"),
+    url(../mediaAndAttach/fonts/FeFCsc2.ttf) format("truetype");
+
+    font-weight: normal;
+    font-style: normal;
+}
+#top{
+    width:auto;
+    height:40px;
+    background-color: #0080ff;
+    border: solid 1px #0080ff;
+}
+#top>div{
+    height:40px;
+    line-height:40px;
+    /*color:white;*/
+    text-align: center;
+    color:white;
+    cursor: pointer;
+}
+#top>div:nth-child(1),#top>div:nth-child(2){
+
+    float:left;
+    width:100px;
+    margin:0  0 0 20px;
+
+}
+
+#top>div:nth-child(3){
+
+    float:right;
+    width:100px;
+    margin:0 20px 0 0;
+}
+#top>div:hover{
+
+    background-color: #005eba;
+}
+#top>div>a{
+    float: right;
+    display: block;
+    cursor: pointer;
+    width:100%;
+    height: 40px;
+
+}
+#language>a{
+    float: right;
+}
+#language>a:hover{
+    color:white;
+}
+#logo{
+    height:70px;
+    float:left;
+
+}
+#logo>img{
+    height:100%;
+}
+#nav-logo {
+    height: 120px;
+    margin: 0px 0 0 0;
+    background-color: white;
+    transition:all linear 1s;
+}
+#nav-logo >div:nth-child(1){
+    margin: 25px 0 0 60px;
+}
+#search-main {
+    width: 200px;
+    height: 40px;
+    margin:40px 0 0 150px ;
+    float: left;
+}
+
+#search-main >input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: 0px 0px 0px 1px #aaa inset ;
+    padding:5px 10px;
+    box-sizing: border-box;
+    font-family:"novaslim";
+    font-size: 15px;
+
+}
+input:focus {
+    /*outline-width: 0;*/
+    outline: none;
+}
+/**:focus {*/
+    /*outline: none;*/
+/*}*/

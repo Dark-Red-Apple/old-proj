@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON shopping_card.* To 'shopping_card'@'localhost' IDENTIFIED BY '1';

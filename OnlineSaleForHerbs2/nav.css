@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+nav>div{
+	width:944px;
+	height:40px;
+	margin:0px auto 0px auto;
+	background-color:rgba(172,210,27,.5);	
+	border:1px solid rgba(172,210,27,.5);
+}
+
+nav>div>ul{
+	list-style:none; /* remove bullets */	
+}
+
+nav>div>ul>li{
+	float:right;
+	width:188px;
+	height:35px;
+}
+nav>div>ul>#li2{
+	margin-left:1px;
+	margin-right:1px;
+}
+nav>div>ul>#li4{
+	margin-left:1px;
+	margin-right:1px;
+}
+
+nav>div>ul>li>a{
+	text-decoration:none; /* remove link underline */
+	display:block;
+	width:188px;
+	height:40px;
+	line-height:40px;
+	font-family:"yekan";
+	background-color:rgba(255,255,255,1);
+	text-align:center;
+	font-weight:bold;
+	color:#000;
+	transition:all 0.5s;
+}
+
+nav>div>ul>li>a:hover{
+	background-color:rgba(172,210,27,.5);
+	color:rgb(255,255,255);
+}
+
+
+

@@ -1,0 +1,134 @@
+
+form > div {
+    border-radius: 3px;
+}
+
+input[type=radio], input[type=checkbox] {
+    vertical-align: middle
+}
+
+form input[type=text], form input[type=password], textarea, select {
+    border: 1px dashed #8a8a8a;
+    min-width: 100%;
+    min-height: 39px;
+    background: none;
+    font-size: 15px;
+    /* border: none; */
+    /* box-shadow: 0px 0px 0px 1px #aaa inset; */
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-family: iran_sans;
+    color: #1d1d1d;
+}
+
+form textarea {
+    min-height: 100px;
+    max-width: 700px;
+}
+
+select {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+select > option {
+    padding: 0 10px;
+}
+
+input[type=submit], input[type=reset] {
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: all 0.4s ease;
+    width: 100px;
+    height: 30px;
+    background: none;
+    color: black;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background: black;
+    color: white;
+}
+
+#form {
+    width: 900px;
+    /*margin-top: 50px;*/
+    /* background-color: rgba(75, 99, 188, 0.41); */
+    float: right;
+}
+
+#form > div { /* form rows */
+    width: 900px;
+    min-height: 35px;
+    /*background-color: #ddd;*/
+    margin-top: 10px;
+    overflow: hidden;
+
+}
+
+#form > div > div {
+    float: right;
+    min-height: 35px;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 1px #bbb inset;
+    /*background-color:rgba(21, 52, 112, 0.16);*/
+    background: transparent;
+
+}
+
+#form > div:last-child > div {
+    background-color: transparent;
+}
+
+#form > div > div:nth-child(1) { /* form column 1 */
+    width: 150px;
+    background-color: rgb(170, 170, 170);
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid #9da9d4;
+    transition: all 0.4s ease;
+    /* width: 150px; */
+    /* height: 30px; */
+    background: none;
+    color: black;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+#form > div > div:nth-child(2) { /* form column 2 */
+    width: 530px;
+    margin: 0 10px;
+    text-align: right;
+    box-shadow: none;
+}
+
+#form > div > div:nth-child(3) { /* form column 3 */
+    width: 200px;
+    color: rgba(209, 22, 94, 0.92);
+    box-shadow: none;
+}
+
+#form > div.textarea-row {
+    height: 120px;
+}
+
+#form > div.textarea-row > div {
+    height: 120px;
+}
+
+#form > #brief-row > div > textarea {
+    height: 120px;
+}
+
+#form > div:last-child > div {
+    box-shadow: none;
+
+}
+
+#form > div:last-child > div:first-child {
+    background: transparent;
+    margin-bottom: 40px;
+    border: none;
+}

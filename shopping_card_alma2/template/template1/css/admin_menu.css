@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+#nav-logo-wrapper {
+    height: 120px;
+    width: auto;
+    margin: 0px 0 0 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#nav-logo-main {
+    height: 120px;
+    width: auto;
+    margin: 0px auto 0 auto;
+    background-color: white;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    box-shadow: rgb(175, 174, 174) 0px 10px 10px -5px;
+    z-index: 2000;
+}
+
+#nav-logo {
+    height: 120px;
+    width: auto;
+    margin: 0px auto 0 auto;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+
+}
+
+nav {
+    width: 600px;
+    height: 60px;
+    margin: 30px auto 0px 100px;
+    float: right;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    float: right;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    margin: 10px 40px 0 0px;
+
+}
+
+#logo > a > img {
+    height: 100%;
+}
+
+#search-main {
+    width: 200px;
+    height: 40px;
+    margin: 40px 10px 0 40px;
+    float: left;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#search-main > input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: 0px 0px 0px 1px #aaa inset;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-family: "novaslim";
+    font-size: 15px;
+
+}
+
+nav > ul {
+    list-style: none; /* remove bullets */
+}
+
+nav > ul > li {
+    float: right;
+    width: 100px;
+    height: 60px;
+    /*border-bottom: solid 1px black;*/
+    position: relative;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+nav > ul > li:hover > div {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+    border-top: solid 5px #c5eaf1;
+
+}
+
+nav > ul > li > a {
+    text-decoration: none; /* remove link underline */
+    display: block;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "yekan";
+    text-align: center;
+    font-size: 15px;
+    /*font-weight:bold;*/
+    color: #000;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+nav > ul > li > a:hover {
+    color: rgb(110, 129, 163);
+}
+
+nav > ul > li > div {
+    border-top: none;
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: -25px;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s linear, border 0.2s linear;
+    -webkit-transition: visibility 0s linear 0.3s, opacity 0.3s linear, border 0.2s linear;
+    -moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear, border 0.2s linear;
+    -o-transition: visibility 0s linear 0.3s, opacity 0.3s linear, border 0.2s linear;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    visibility: hidden;
+}
+
+nav > ul > li > div > ul {
+    list-style: none; /* remove bullets */
+}
+
+nav > ul > li > > div > ul > li {
+    width: 150px;
+    height: 60px;
+}
+
+nav > ul > li > div > ul > li > a {
+    text-decoration: none; /* remove link underline */
+    display: block;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "yekan";
+    text-align: center;
+    font-size: 0.9em;
+    /*font-weight:bold;*/
+    cursor: pointer;
+    color: #000;
+    transition: color 1s;
+    -webkit-transition: color 1s; /*do not use all because it breaks the upper config on visibility*/
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+}
+
+nav > ul > li > div > ul > li > a:hover {
+    color: rgb(110, 129, 163);
+}
+
+#menu-icons {
+    width: 80px;
+    height: 60px;
+    margin: 30px 10px 0 40px;
+    float: left;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#menu-icons > div:last-child {
+    margin: 0;
+}
+
+#menu-icons > div {
+    width: 30px;
+    height: 60px;
+    margin-left: 20px;
+    float: right;
+    display: block;
+}
+
+#menu-icons > div > a > i {
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #000000;
+}
+
+#user-menu {
+    position: relative;
+}
+
+#user-menu > div {
+    border: solid 1px #e1e1e1;
+    width: 150px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: -60px;
+    opacity: 0;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    -webkit-transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    -moz-transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    -o-transition: visibility 0s linear 0.5s, opacity 0.5s linear, box-shadow 0.5s linear;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    visibility: hidden;
+}
+
+#user-menu:hover > div {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+#user-menu > div > ul {
+    list-style: none; /* remove bullets */
+}
+
+#user-menu > div > ul > li {
+    width: 150px;
+    height: 40px;
+}
+
+#user-menu > div > ul > li > a {
+    text-decoration: none; /* remove link underline */
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-family: "yekan";
+    text-align: center;
+    font-size: 0.9em;
+    /*font-weight:bold;*/
+    cursor: pointer;
+    color: #000;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s; /*do not use all because it breaks the upper config on visibility*/
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+#user-menu > div > ul > li > a :hover {
+    color: rgb(163, 109, 83);
+}

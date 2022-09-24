@@ -1,0 +1,63 @@
+Table category:
+cat_id varchar 20
+cat_name varchar 50
+cat_desc varchar 200
+cat_pic varchar 50
+-----------------
+Table brand:
+brand_id varchar 20
+brand_name varchar 50
+brand_logo varchar 50
+brand_desc varchar 200
+-----------------
+Table product:
+product_id varchar 20
+cat_id varchar 20
+brand_id varchar 20
+product_name varchar 50
+product_size varchar 11 // 111*222*333
+product_weight varchar 6 //100000 gram
+product_date varchar 10 // 1395/07/22
+product_price varchar 9 //99 000 000 0
+product_warranty varchar 50
+product_exist boolean
+-----------------
+Table customer:
+customer_id int 20 ai
+customer_name varchar 50
+customer_family varchar 50
+customer_type  smallint // 0 for person 1 for company
+customer_company_name varchar 50
+customer_tel varchar 20
+customer_mobile varchar 20
+customer_email varchar 50
+customer_address varchar 200
+customer_postal_code varchar 15
+customer_sex varchar 10
+customer_photo varchar 50
+-----------------
+Table invoice
+invoice_id int 20 ai
+customer_id int 20 ai
+invoice_date varchar 19     // 1395/07/22-16:29:20
+invoice_state varchar 30
+invoice_delivery varchar 50
+invoice_pay varchar 50
+invoice_address varchar 200 //0 for default or new address
+-----------------
+Table order
+order_id int 20 ai
+invoice_id int 20 ai
+product_id varchar 20
+order_number int 4 // 9999
+
+
+
+
+
+
+
+
+
+
+

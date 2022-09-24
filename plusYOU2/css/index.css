@@ -1,0 +1,225 @@
+@charset "utf-8";
+.header-container{
+    width:auto;
+    height:100%;
+    margin: 0px auto 0 auto;
+    overflow: hidden;
+}
+.intro-container{
+    width: 400px;
+    height: 550px;
+    margin-left: 15%;
+    margin-top: 3%;
+    position: relative;
+    /*z-index: 2;*/
+    z-index: 2000;
+    }
+.slider{
+    width: 100%;
+    height: 100%;
+    background-image: url("../MediaAndAttach/images/pic18.jpg");
+    /*background-color: black;*/
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    /*float: left;*/
+    /*z-index: -1000;*/
+}
+.intro{
+    width: 400px;
+    height: 100%;
+    /*margin-left: 20px;*/
+    /*background-color:white ;*/
+    /*border:solid 0.1em #8c9c96;*/
+    float:left;
+    box-sizing: border-box;
+    /*box-shadow: 4px 1px 4px rgba(0,0,0,0.2);*/
+    color:white;
+
+}
+.title{
+
+    font-family: "novaslim";
+    display: inline-block;
+    font-size: 100px;
+    color: black;
+    margin: 20px 0px 0px 30px;
+    color: #fff;
+    font-weight: bold;
+    /*text-shadow: -1px 0 #44454a, 0 1px #dad9e2, 1px 0 #383232, 0 -1px #211f1f;*/
+}
+.description{
+    width:300px;
+    font-family: "novaslim";
+    display: inline-block;
+    font-size: 19px;
+    margin:20px 0px 0px 40px ;
+    color: #a5a09d;
+    /*text-shadow: -1px 0 #44454a, 0 1px #dad9e2, 1px 0 #383232, 0 -1px #211f1f;*/
+
+    }
+.intro-animation
+{
+    opacity: 0;
+    /*animation:fadeIn 1000ms linear forwards;*/
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    animation-duration:2s;
+
+
+
+}
+
+.intro-animation2
+{
+
+    -webkit-animation-animation-delay:1s;/* !!!!!! you can not put this on the description class  and span should be in line block*/
+    -moz-animation-delay:1s;
+    animation-delay: 1s;
+
+}
+@-webkit-keyframes fadeIn { from {  opacity: 0} to {  opacity: 1} }
+@-moz-keyframes fadeIn { from { opacity: 0} to { opacity: 1 } }
+@keyframes fadeIn { from {  opacity: 0 } to {  opacity: 1 } }
+
+/*transform: rotate(360deg);*/
+/*transform-origin: top left;*/
+
+.big-arrow{
+
+    width: auto;
+    height: 200px;
+    background-color: #a19963;
+    /*margin-top: 50px;*/
+
+}
+
+
+
+@-webkit-keyframes drop { from {  top: 0} to {  top: 200px} }
+@-moz-keyframes drop { from {  top: 0} to {  top: 200px}  }
+@keyframes drop { from {  top: 0} to {  top: 200px} }
+
+@-webkit-keyframes drop2 {  to {  top: 200px} }
+@-moz-keyframes drop2 { to {  top: 200px}  }
+@keyframes drop2 {  to {  top: 200px} }
+
+@-moz-keyframes spin { from { -moz-transform: rotate(0deg); } to { -moz-transform: rotate(360deg); }}
+@-webkit-keyframes spin { from { -webkit-transform: rotate(0deg); }to { -webkit-transform: rotate(360deg); }}
+@keyframes spin { from {transform:rotate(0deg);} to {transform:rotate(360deg);}}
+
+@-moz-keyframes change-color { from { border-bottom-color: white; } to { border-bottom-color: #0c126a }}
+@-webkit-keyframes change-color { from {border-bottom-color: white; } to { border-bottom-color: #0c126a }}
+@keyframes change-color { from { border-bottom-color: white; } to { border-bottom-color: #0c126a }}
+/*$size: 1000;*/
+/*$nb: 25;*/
+/*$yellow: #FAAA13;*/
+/*$red: #F03E31;*/
+/*$blue: #10A0AB;*/
+.ring-animation{
+
+
+
+/*@for $i from $nb to 0{*/
+    /*&:nth-child(#{$i}){*/
+    /*height: #{$size - $i * 40}px;*/
+    /*width: #{$size - $i * 40}px;*/
+    /*top:  #{$i * 20}px;*/
+    /*left: #{$i * 20}px;*/
+    /*animation: spin 15s linear #{$i * 0.04}s infinite;*/
+/*}*/
+/*}*/
+    /*opacity: 0;*/
+    /*!*animation:fadeIn 1000ms linear forwards;*!*/
+    /*-webkit-animation:fadeIn ease-in 1;  !* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time *!*/
+    /*-moz-animation:fadeIn ease-in 1;*/
+    /*animation:fadeIn ease-in 1;*/
+    /*-webkit-transform: translateZ(0);*/
+    /*-ms-transform: translateZ(0);*/
+    /*transform: translateZ(0);*/
+
+    /*-webkit-animation-fill-mode:forwards;  !* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*!*/
+    /*-moz-animation-fill-mode:forwards;*/
+    /*animation-fill-mode:forwards;*/
+
+    /*-webkit-animation-duration:2s;*/
+    /*-moz-animation-duration:2s;*/
+    /*animation-duration:2s;*/
+    /*animation-iteration-count: 3;*/
+
+}
+.me{
+    z-index: 20000;
+
+}
+.face{
+    width: 50px;
+    height: 50px;
+    top: 450px;
+    left: 800px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 100%;
+    position: absolute;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    border: solid 6px ;
+    border-color: black transparent black black;
+}
+.body{
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    top: 500px;
+    left: 820px;
+    background-color: black;
+    display: inline-block;
+
+}
+.hand{
+
+    width: 10px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    background-color:black ;
+}
+.hand1{
+    top: 500px;
+    left: 800px;
+    transform: rotate(50deg);
+}
+.hand2{
+    top: 500px;
+    left: 840px;
+    transform: rotate(-50deg);
+}
+.foot{
+    /*border: solid 2px white;*/
+    width: 10px;
+    height: 40px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+}
+.foot1{
+    top:540px;
+    left:800px;
+    transform: rotate(20deg);
+}
+
+.foot2{
+    top:540px;
+    left:840px;
+    transform: rotate(-20deg);
+}
+

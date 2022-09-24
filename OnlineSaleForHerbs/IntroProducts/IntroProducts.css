@@ -1,0 +1,49 @@
+@charset "utf-8";
+	
+#products{
+	width:960px;
+	height:632px;
+	margin:100px auto 150px auto;
+}
+
+#products>div{
+	height:202px;
+	position:relative;
+	border:1px solid rgba(220,200,200,.5);
+	margin:10px auto 0 auto;
+	border-top-left-radius:10em;
+}	
+
+#products>div>a>marquee>img{
+	width:200px;
+	height:150px;
+	background-color:rgba(220,200,200,.5);
+
+}
+#products>div>a{
+	width:200px;
+	height:150px;
+	display:block;
+	margin:25px 0px;
+
+}
+	
+	
+#products>div>p{
+	width:710px;
+	height:184px;
+	background-color:rgba(220,200,200,.5);
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:"yekan";
+	padding-left:40px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	text-align:justify;
+	overflow: hidden;
+        text-overflow: ellipsis;
+	border-top-left-radius:10em;
+
+}

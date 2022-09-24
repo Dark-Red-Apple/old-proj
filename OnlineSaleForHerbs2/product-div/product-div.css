@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+	
+	#products
+	{
+	width:960px;
+	height:906px;
+	margin:100px auto 0px auto;
+	
+	}
+	
+	#products>div
+	{
+	float:right;	
+	width:300px;
+	height:300px;
+	margin:2px 15px 0px 0px;
+	background-color:#ffffff;
+	font-weight:bold;
+	font-family:"bardiya";
+	border-radius:7px;
+	}
+	
+	#products>div>p>img
+	{
+	width:300px;
+	margin:0px auto;
+	border-radius:7px;
+	margin-left:10px;
+	}
+
+	#products>div>p
+	{
+	font-weight:lighter;
+	font-family:"bardiya";
+	}
+	

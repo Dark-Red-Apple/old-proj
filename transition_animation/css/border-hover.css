@@ -1,0 +1,34 @@
+body{
+    background-color: green;
+}
+.father{
+    width:500px;
+    height:500px;
+    background-color: blue;
+    position:relative;
+    transition:all 1s ease;/*children does not inherit transition */
+}
+.child{
+    width:500px;
+    height:500px;
+    background-color: white;
+    position:absolute;
+    opacity:0;
+    transition:width 1s linear,height 1s linear,opacity 1s ease-in-out,border 1s linear;
+    margin:0px;
+    border:0 solid transparent;
+    -moz-background-clip: padding; /* for Mozilla browsers*/
+    -webkit-background-clip: padding;   /* Webkit */
+    background-clip: padding-box; /*  browsers with full support */
+}
+.child:hover{
+    opacity:1;
+    border:10px solid transparent;
+    width:480px;
+    height:480px;
+    /*transition:opacity 1s;!*you cant give it to hover because it makes the hover off without transition and the old ones are replaced*!*/
+
+}
+.child h2{
+    text-align: center;
+}
