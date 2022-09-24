@@ -1,0 +1,18 @@
+﻿------ Build started: Project: Compiler, Configuration: Debug x86 ------
+c:\users\amir\documents\visual studio 2010\Projects\Compiler\Compiler\Form1.cs(25,33): error CS0029: Cannot implicitly convert type 'System.Collections.Generic.Stack<string>' to 'string'
+
+Compile complete -- 1 errors, 0 warnings
+Build started 10/30/2011 8:57:48 PM.
+ResolveAssemblyReferences:
+  A TargetFramework profile exclusion list will be generated.
+CoreResGen:
+  All outputs are up-to-date.
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Deployment.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\x86\Debug\Compiler.exe /resource:obj\x86\Debug\Compiler.Form1.resources /resource:obj\x86\Debug\Compiler.Properties.Resources.resources /target:winexe Form1.cs Form1.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs "C:\Users\Amir\AppData\Local\Temp\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs"
+
+Build FAILED.
+
+Time Elapsed 00:00:00.11
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

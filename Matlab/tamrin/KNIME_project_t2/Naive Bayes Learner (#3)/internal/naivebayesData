@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+<entry key="ClassColumnName" type="xstring" value="Col8"/>
+<config key="ClassColumnType">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="Threshold" type="xdouble" value="0.001"/>
+<config key="SkippedAttributes">
+<entry key="SkippedAttributesCounter" type="xint" value="0"/>
+</config>
+<config key="AttributeModelSection">
+<entry key="AttributeModelCounter" type="xint" value="9"/>
+<config key="AttributeModelData_0">
+<entry key="attributeName" type="xstring" value="Col0"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="virginica"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="177.29999999999998"/>
+<entry key="squareSum" type="xdouble" value="1177.35"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="setosa"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="26"/>
+<entry key="sum" type="xdouble" value="130.49999999999997"/>
+<entry key="squareSum" type="xdouble" value="657.7499999999998"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="versicolor"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="163.59999999999997"/>
+<entry key="squareSum" type="xdouble" value="997.4200000000001"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_1">
+<entry key="attributeName" type="xstring" value="Col1"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="virginica"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="17.0"/>
+<entry key="squareSum" type="xdouble" value="11.712962962037038"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="setosa"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="26"/>
+<entry key="sum" type="xdouble" value="5.204444443000001"/>
+<entry key="squareSum" type="xdouble" value="1.2493283949382716"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="versicolor"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="13.194444444"/>
+<entry key="squareSum" type="xdouble" value="6.92052469141975"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_2">
+<entry key="attributeName" type="xstring" value="Col2"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="virginica"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="78.49999999999999"/>
+<entry key="squareSum" type="xdouble" value="230.89000000000001"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="setosa"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="26"/>
+<entry key="sum" type="xdouble" value="89.70000000000002"/>
+<entry key="squareSum" type="xdouble" value="312.01"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="versicolor"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="75.30000000000001"/>
+<entry key="squareSum" type="xdouble" value="212.00999999999996"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_3">
+<entry key="attributeName" type="xstring" value="Col3"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="virginica"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="10.208333333999999"/>
+<entry key="squareSum" type="xdouble" value="4.321180557027777"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="setosa"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="26"/>
+<entry key="sum" type="xdouble" value="15.708233332"/>
+<entry key="squareSum" type="xdouble" value="9.932091675000002"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="versicolor"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="8.874999999999998"/>
+<entry key="squareSum" type="xdouble" value="3.265625"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_4">
+<entry key="attributeName" type="xstring" value="Col4"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="virginica"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="152.20000000000002"/>
+<entry key="squareSum" type="xdouble" value="867.92"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="setosa"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="26"/>
+<entry key="sum" type="xdouble" value="38.8"/>
+<entry key="squareSum" type="xdouble" value="58.740000000000016"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="versicolor"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="117.70000000000002"/>
+<entry key="squareSum" type="xdouble" value="518.4100000000001"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_5">
+<entry key="attributeName" type="xstring" value="Col5"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="virginica"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="21.220238980999998"/>
+<entry key="squareSum" type="xdouble" value="16.963890785454176"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="setosa"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="26"/>
+<entry key="sum" type="xdouble" value="2.1794915269999997"/>
+<entry key="squareSum" type="xdouble" value="0.20521347336857226"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="versicolor"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="15.372881356999999"/>
+<entry key="squareSum" type="xdouble" value="8.905774203862684"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_6">
+<entry key="attributeName" type="xstring" value="Col6"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="virginica"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="54.0"/>
+<entry key="squareSum" type="xdouble" value="109.51999999999998"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="setosa"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="26"/>
+<entry key="sum" type="xdouble" value="6.600000000000001"/>
+<entry key="squareSum" type="xdouble" value="1.9600000000000004"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="versicolor"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="36.70000000000001"/>
+<entry key="squareSum" type="xdouble" value="50.99"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_7">
+<entry key="attributeName" type="xstring" value="Col7"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="virginica"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="21.374899997999997"/>
+<entry key="squareSum" type="xdouble" value="17.18556389602778"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="setosa"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="26"/>
+<entry key="sum" type="xdouble" value="1.6966666700000008"/>
+<entry key="squareSum" type="xdouble" value="0.15655000025"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="versicolor"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="27"/>
+<entry key="sum" type="xdouble" value="14.166666666000001"/>
+<entry key="squareSum" type="xdouble" value="7.624999999"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_8">
+<entry key="attributeName" type="xstring" value="Col8"/>
+<entry key="type" type="xstring" value="ClassModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="totalNoOfRecords" type="xint" value="80"/>
+<entry key="maxNoOfClassValues" type="xint" value="20"/>
+<config key="classValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="setosa"/>
+<entry key="1" type="xstring" value="versicolor"/>
+<entry key="2" type="xstring" value="virginica"/>
+</config>
+<config key="classRecordCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xint" value="26"/>
+<entry key="1" type="xint" value="27"/>
+<entry key="2" type="xint" value="27"/>
+</config>
+</config>
+</config>
+</config>
+</config>

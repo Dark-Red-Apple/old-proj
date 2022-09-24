@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+<entry key="dimensions" type="xint" value="5"/>
+<entry key="ignoredColumns" type="xint" value="3"/>
+<config key="clusterCoverage">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="7"/>
+<entry key="1" type="xint" value="7"/>
+</config>
+<config key="kMeansCluster0">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="71.0"/>
+<entry key="1" type="xdouble" value="72.85714285714286"/>
+</config>
+<config key="kMeansCluster1">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="76.14285714285714"/>
+<entry key="1" type="xdouble" value="90.42857142857143"/>
+</config>
+<config key="FeatureNames">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="temperature"/>
+<entry key="1" type="xstring" value="humidity"/>
+<entry key="2" type="xstring" isnull="true" value=""/>
+<entry key="3" type="xstring" isnull="true" value=""/>
+<entry key="4" type="xstring" isnull="true" value=""/>
+</config>
+<config key="HiLiteMapping">
+<config key="cluster_1">
+<entry key="cluster_1" type="xstring" value="cluster_1"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="0"/>
+<entry key="1" type="xstring" value="11"/>
+<entry key="2" type="xstring" value="1"/>
+<entry key="3" type="xstring" value="2"/>
+<entry key="4" type="xstring" value="13"/>
+<entry key="5" type="xstring" value="3"/>
+<entry key="6" type="xstring" value="7"/>
+</config>
+</config>
+<config key="cluster_0">
+<entry key="cluster_0" type="xstring" value="cluster_0"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="12"/>
+<entry key="1" type="xstring" value="4"/>
+<entry key="2" type="xstring" value="5"/>
+<entry key="3" type="xstring" value="6"/>
+<entry key="4" type="xstring" value="8"/>
+<entry key="5" type="xstring" value="9"/>
+<entry key="6" type="xstring" value="10"/>
+</config>
+</config>
+</config>
+</config>

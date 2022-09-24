@@ -1,0 +1,5 @@
+c:\users\amir\documents\visual studio 2010\Projects\Compiler\Compiler\obj\x86\Release\ResolveAssemblyReference.cache
+c:\users\amir\documents\visual studio 2010\Projects\Compiler\Compiler\obj\x86\Release\Compiler.Form1.resources
+c:\users\amir\documents\visual studio 2010\Projects\Compiler\Compiler\obj\x86\Release\Compiler.Properties.Resources.resources
+c:\users\amir\documents\visual studio 2010\Projects\Compiler\Compiler\obj\x86\Release\GenerateResource.read.1.tlog
+c:\users\amir\documents\visual studio 2010\Projects\Compiler\Compiler\obj\x86\Release\GenerateResource.write.1.tlog

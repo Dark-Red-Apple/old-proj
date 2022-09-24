@@ -1,0 +1,13 @@
+main()
+{
+  int i;
+  if(i<=2)
+    {
+      i%2;
+      break;
+    }
+ else
+    {
+      i+5;
+    }
+}
